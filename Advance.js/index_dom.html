@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="dom.js"></script> -->
+    <link rel="stylesheet" href="dom.css" />
+    <title>Dom</title>
+  </head>
+  <body class="bigcontainer" style="background-color: rgb(19, 19, 19)">
+    <span>
+      <h1 class="firstclass" id="heading1">
+        <font style="color: rgb(29, 29, 218)">
+          Lorem ipsum dolor sit amet.
+        </font>
+      </h1>
+    </span>
+    <br />
+    <br />
+    <span>
+      <h2 id="heading2">
+        <font style="color: rgb(187, 236, 29)">
+          Lorem ipsum dolor sit amet.
+        </font>
+      </h2>
+    </span>
+    <br />
+    <br />
+    <span>
+      <h3 id="heading3">
+        <font style="color: rgb(204, 47, 47)">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
+          consequuntur!
+        </font>
+      </h3></span
+    >
+    <br />
+    <br />
+    <span
+      ><h4 id="heading4">
+        <font style="color: rgb(255, 157, 0)">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
+          consequuntur!
+        </font>
+      </h4>
+    </span>
+    <br />
+    <br />
+    <a href="" target="_self"
+      ><font style="color: rgb(54, 222, 3)">
+        <big>Smookey</big>
+      </font>
+    </a>
+    <label for=".list_of_num">
+      <ul class="list_of_num" type="none">
+        <font style="color: hsl(119, 97%, 44%)">
+          unorder
+          <big class="big_item_class" id="big_item_id">
+            <li id="itemlist1" class="classlist" type="" style="color: aqua;">first</li>
+            <li id="itemlist2">second</li>
+            <li id="itemlist3">third</li>
+            <li id="itemlist4" liyakat>fourth</li>
+          </big>
+        </font>
+      </ul>
+    </label>
+    <!-- <script defer>
+      //    doc=function(modify,style,text,val,id,classs)
+      //   {
+      //     let tags;
+
+      //  if(modify !==undefined||false||null)
+      //  {
+      //   modify = document.querySelectorAll(`${modify}`);
+      //   modify.forEach(val =>
+      //    {
+      //   val.getAttribute.inner
+      //   });
+      //   console.log(`${modify[0]}`);
+
+      // }
+      let val2;
+      val2 = document.querySelectorAll("ul");
+
+      val2.forEach((val1) => {
+        let values = [];
+        console.log(`${val1}`);
+        values = val1.innerHTML;
+        console.log(`${values}`);
+        values = document.querySelectorAll("li");
+        values = Array.from(values);
+
+        for (let i = 0; i < values.length; i++) {
+          if (i == 0) {
+            values[i].style.color = "white";
+            values[i].style.background = "grey";
+            values[i].style.fontSize = "35px";
+            values[i].style.borderRadius = "15px";
+          }
+        }
+        console.log(`${typeof values}`);
+        // values[0].style.color="grey"
+      });
+
+      // }
+      // doc("h1");
+    </script> -->
+
+    <br />
+    <script>
+
+    // // let new_val; // let className; // let elements_val; // let
+    // elements_text_node; // // document.appendChild // // document.body.onload =
+    // creation_of_element2 // elements_val=prompt("Enter the tag name") //
+    // elements_text_node=prompt("Enter content want to print inside a tag") // //
+    // let creation_of_element2; // function creation_of_element2(tag_name, message
+    // ) // { // let new_val2; // new_val2 = document.createElement(`${tag_name}`)
+    // // new_val2.setAttribute("className","firstclass2") //
+    // new_val2.setAttribute("id","firstheading2") //
+    // new_val2.style.color="hsl(202, 97%, 44%)" //
+    // new_val2.style.fontFamily="arial" // new_val2.innerHTML=`${message}` //
+    // console.log(document.querySelectorAll(`${tag_name}`)); // const currentDiv =
+    // document.getElementById("div1"); // document.body.insertBefore(new_val2,
+    // currentDiv); // } // creation_of_element2(elements_val,elements_text_node)
+    // // modify version // let new_val; // // let append ; // //
+    // append.appendChild(creation_of_element2(elements_val,elements_text_node));
+    // // let elements_val; // let elements_text_node; // document.appendChild //
+    // document.body.onload = creation_of_element2 // elements_val=prompt("Enter
+    // the tag name") // elements_text_node=prompt("Enter content want to print
+    // inside a tag") // let creation_of_element2; // function
+    // creation_of_element2(tag_name, message ) // { // let new_val2; // new_val2 =
+    // document.createElement(`${tag_name}`) // new_val2.className="firstclass2" //
+    // new_val2.id="firstheading2" // // new_val2.style.color="hsl(202, 97%, 44%)"
+    // // // new_val2.style.fontFamily="arial" // //
+    // new_val2.style.backgroundColor="white" // new_val2.style.css-style
+
+    // <!-- //   new_val2.innerHTML=`<span>${message}</span>` -->
+    // // console.log(document.querySelectorAll(`${tag_name}`)); // const
+    // currentDiv = document.createElement("a"); // // //
+    // currentDiv.style.color="hsl(256, 97%, 44%)" // // //
+    // currentDiv.style.fontFamily="arial" // // //
+    // currentDiv.style.backgroundColor="grey" // document.body.append(new_val2);
+    // // } // creation_of_element2(elements_val,elements_text_node)
+
+  </script> 
+  <p>hello</p>
+  </body>
+
+  <!-- let val2
+  val2=document.querySelectorAll("h1")
+        
+  val2.forEach((val1 ) =>{
+    let values=[];
+    console.log(`${val1}`)
+values = val1.innerHTML;
+console.log(`${ values}`);
+values=document.querySelectorAll("h1");
+values=Array.from(values)
+
+for (let i=0;i<values.length;i++)
+{
+
+values[i].style.color="white";
+values[i].style.background="grey";
+values[i].style.fontSize="35px";
+values[i].style.borderRadius="15px";
+
+}
+console.log(`${ typeof values}`);
+// values[0].style.color="grey"
+
+}); -->
+
+  <script>
+    //   //nested created element and property also
+    // let new_all_tag2 = document.querySelectorAll("li")
+    // console.log(new_all_tag2);
+    // let inside_tag;
+
+    // new_all_tag2.forEach((list) =>
+    //   {
+    //     list.classList.add('css-style')
+
+    //     let tag;
+    //     let tag2;
+    //     let clone_tag;
+    // inside_tag=document.createElement("a")
+    // <!-- // inside_tag.innerHTML="<a href=''> </a>" -->
+
+    // clone_tag=list.cloneNode("deep")
+    // <!-- // // console.log(inside_tag.innerHTML=`<a href=""> ${clone_tag} </a>`) -->
+    //   inside_tag.appendChild (clone_tag);
+    // tag2=document.querySelector("a")   //but want in ul with anchor  proprty
+    // tag2.appendChild(inside_tag)
+    //   });
+    //   console.log(inside_tag);
+  </script>
+</html>
